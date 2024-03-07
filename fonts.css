@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+    font-size: 16px;
+    font-family: Rubik, sans-serif;
+    font-weight: normal;
+    background: #F8F8FF;
+    color: rgb(0, 0, 50);
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+
+.avatar{
+    width: 200px;
+    border-radius: 10px;
+    display:block;
+    margin: 0px auto 0px auto;
+    transition: all 1s;
+}
+
+.avatar:hover{
+    width: 225px;
+}
+
+
+
+.title{
+    background: #DEB887;
+    padding: 3px;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.linkz {
+    background: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;   
+}
+
+
+.hobby {
+    background: darkseagreen;
+    padding: 2px;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+
+.message{
+    background: #ffbfbf;
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+a:active {
+    color: red;
+}
+
+
+.btn {
+    background: lightcoral;
+    border: none;
+    padding: 8px;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 4px;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
